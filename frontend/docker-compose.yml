@@ -12,7 +12,7 @@ services:
       context: .
       dockerfile: ./Dockerfile
     ports:
-      - "3000:3000"
+      - "3030:3000"
       - "24678:24678"
     volumes:
       - ./src:/work
